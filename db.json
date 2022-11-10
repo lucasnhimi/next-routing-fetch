@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Produtos Teste 1",
+      "price": 100,
+      "description": "Descrição Produto Teste 1."
+    },
+    {
+      "id": "2",
+      "title": "Produtos Teste 2",
+      "price": 200,
+      "description": "Descrição Produtos Teste 2."
+    }
+  ]
+}
