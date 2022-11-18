@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { use } from 'react';
 
@@ -6,12 +8,14 @@ async function getData() {
   return res.json();
 }
 
+const dataPromise = getData();
+
 export default function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const products = use(getData());
+  const products = use(dataPromise);
 
   return (
     <div>
